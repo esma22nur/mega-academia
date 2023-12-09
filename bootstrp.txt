@@ -1,0 +1,100 @@
+<!doctype html>
+
+<html>
+  <head>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
+  </head>
+
+  <body>
+    
+      <div class="container ">
+        <div class="jumbotron text-center"  >
+          <h2>HOŞGELDİNİZ</h2>
+          <p>Ana sayfama hoşgeldin </p>
+        
+        <div class="navbar " style="background-color:#e7eaf6" backgraund-hover >
+          <a> ANASAYFA </a>
+          <a> HAKKINDA </a>
+          <a> BİZE ULAŞIN </a>
+          <div class="dropdown">
+          <button class="btn btn-secondary dropdown-toggle" type="button" data-toggle="dropdown" aria-expanded="false">
+            MENÜ
+          </button>
+          <div class="dropdown-menu">
+            <a class="dropdown-item" href="#">ANASAYFA</a>
+            <a class="dropdown-item" href="#">GİRİŞ YAP</a>
+            <a class="dropdown-item" href="#">ÇIKIŞ YAP</a>
+          </div>
+        </div>
+        </div>
+        </div>
+        <br>
+        <div class="container">
+           <div class="row">
+             <div class="col-md-4" style="background-color:#455d7a">
+               <h3>BÖLÜM BİR</h3>
+               
+               <p>
+                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam ante mauris, suscipit eleifend dapibus nec, vulputate ut leo. Nullam blandit accumsan luctus. Nullam mattis vitae augue quis vestibulum. Duis a dui aliquet lorem rutrum ornare sed nec dolor. Integer consequat rutrum sapien eget maximus.</p> 
+             </div>
+             <br>
+             <div class="col-md-4" style="background-color:#f95959">
+               <h3> BÖLÜM İKİ</h3>
+               
+               <p>
+               Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam ante mauris, suscipit eleifend dapibus nec, vulputate ut leo. Nullam blandit accumsan luctus. Nullam mattis vitae augue quis vestibulum. Duis a dui aliquet lorem rutrum ornare sed nec dolor. Integer consequat rutrum sapien eget maximus. </p>
+             </div>
+             <br>
+             <div class="col-md-4" style="background-color:#a2a8d3">
+               <h3> BÖLÜM ÜÇ</h3>
+               
+               <p>
+               Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam ante mauris, suscipit eleifend dapibus nec, vulputate ut leo. Nullam blandit accumsan luctus. Nullam mattis vitae augue quis vestibulum. Duis a dui aliquet lorem rutrum ornare sed nec dolor. Integer consequat rutrum sapien eget maximus.</p> 
+             </div>
+
+
+           </div>
+           <div class="row">
+               <div class="col-md-8">
+                   <form style="border-left;">
+                     <br>
+                     <label>isim</label>
+                     <input type="text" class="form-control" placeholder="isim">
+                     <label>soyisim</label>
+                     <input type="text" class="form-control" placeholder="soyisim">
+                     <label>e-posta</label>
+                     <input type="email" class="form-control" placeholder="e-posta adresi">
+                    
+                     <label>şifre</label>
+                     <input type="password" class="form-control" placeholder="şifre">
+                     <br>
+                    <button type="button" class="btn btn-success">GİRİŞ YAP</button>
+                    <br>
+
+                   </form>
+               </div>
+               <div class="col-md-4" style="background-color:#455d7a">
+               <h3>BÖLÜM DÖRT</h3>
+               <br>
+               <p>
+               Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam ante mauris, suscipit eleifend dapibus nec, vulputate ut leo. Nullam blandit accumsan luctus. Nullam mattis vitae augue quis vestibulum. Duis a dui aliquet lorem rutrum ornare sed nec dolor. Integer consequat rutrum sapien eget maximus.</p> 
+             </div>
+           </div>
+        </div>
+
+
+
+
+      </div>
+
+
+
+    
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-Fy6S3B9q64WdZWQUiU+q4/2Lc9npb8tCaSX9FK7E8HnRr0Jz8D6OP9dO5Vg3Q9ct" crossorigin="anonymous"></script>
+  </body>
+</html>
